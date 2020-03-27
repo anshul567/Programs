@@ -20,7 +20,7 @@ int transpose(int m[][c],int r)
 main()
 {
 	int r;
-	cout<<"Enter the number of rows for the first matrix\n";
+	cout<<"Enter the number of rows for the matrix\n";
 	cin>>r;
 	int m[r][c];
 		cout<<"Enter elements of matrix\n";
