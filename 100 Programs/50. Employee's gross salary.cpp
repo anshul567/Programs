@@ -8,9 +8,9 @@ struct Employee
 int main()
 {
 	int i;
-	struct Employee e[5];
+	struct Employee e[100];
 	printf("Enter employees name and basic pay\n");
-	for(i=1;i<=5;i++)
+	for(i=1;i<=100;i++)
 	{
 		printf("Enter details of %d employee\n",i);
 	    scanf("%s%f",&e[i].empname,&e[i].basicpay);
@@ -19,7 +19,7 @@ int main()
     printf("________________________________________________________________________________________________________________________\n");
 	printf("Employee's Name \t Gross Salary\n");
 	printf("________________________________________________________________________________________________________________________\n");
-	for(i=1;i<=5;i++)
+	for(i=1;i<=100;i++)
 	printf("%s\t\t\t%f\n",e[i].empname,e[i].basicpay+e[i].da);
 	return 0;
 }
