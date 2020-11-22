@@ -14,6 +14,8 @@ int main()
 			smax=max;
 			max=a[i];
 		}
+                else if(a[i]>smax)
+                        smax=a[i];
 	}
 	printf("__________________________________________\n");
 	printf("Second largest element of the given array is %d",smax);
